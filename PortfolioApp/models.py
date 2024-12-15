@@ -14,6 +14,7 @@ class Contact(models.Model):
     email = models.EmailField()
     subject = models.CharField(max_length=255)
     message = models.TextField()
+    response = models.TextField(blank=True)
 
     def __str__(self):
         return self.name
@@ -24,7 +25,7 @@ class Project(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
     image = models.ImageField(upload_to="projects_image/")
-    response = models.TextField(blank=True)
+    
 
     def __str__(self):
         return self.category
