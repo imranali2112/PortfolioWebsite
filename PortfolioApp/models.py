@@ -24,6 +24,7 @@ class Project(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
     image = models.ImageField(upload_to="projects_image/")
+    response = models.TextField(blank=True)
 
     def __str__(self):
         return self.category
