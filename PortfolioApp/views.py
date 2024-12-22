@@ -1,6 +1,8 @@
 from django.shortcuts import render, HttpResponse
 from .import models
 from django.contrib import messages
+from django.core.mail import send_mail
+
 # Create your views here.
 def index(request):
     about = models.About.objects.all()
