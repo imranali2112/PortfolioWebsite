@@ -343,7 +343,8 @@ a {
     box-shadow: 13px 15px #565656;
   }
   #about-main-section {
-    margin: auto;
+    margin: 0;
+    justify-content: center;
   }
   #profil-picture {
     box-shadow: -13px 15px #565656;
