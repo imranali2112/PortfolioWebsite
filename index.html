@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NavBar Section -->
+    <div id="navbar-section">
+        <nav class="navbar  bg-dark navbar-expand-lg" data-bs-theme="dark">
+            <!-- Website logo/name -->
+            <div class="container">
+                <img src="images/image/ImranLogo.jpg" alt="location icon" width="60px" height="50px"> <span
+                    id="name">IMRAN ALI</span>
+                <!-- Responsive toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#NavbarToggleBtn, #ButtonWcv" aria-controls="NavbarToggleBtn" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- header section -->
+                <div class="collapse navbar-collapse justify-content-end justify-item-center" id="NavbarToggleBtn">
+                    <ul class="navbar-nav">
+                        <li class="nav-item me-3"><a class="nav-link" href="#about-me">About</a></li>
+                        <li class="nav-item me-3"><a class="nav-link" href="#work-section">Work</a></li>
+                        <li class="nav-item me-3"><a class="nav-link" href="#Testimonials">Testimonials</a></li>
+                        <li class="nav-item me-3"><a class="nav-link" href="#contact-sec">Contact</a></li>
+                        <!-- Dark mood and Download Cv button -->
+                        <ul class="collapse navbar-collapse justify-item-center list-unstyled" id="ButtonWcv">
+                            <li class="nav-item me-3"><img src="images/icons/Vector.svg" alt=""></li>
+                            <li class="nav-item me-3" id="btnCV">
+                                <a href="images/cv/ImranAli.pdf" download="ImranAli.pdf">
+                                    <button class="btnCV rounded" type="button">Download CV</button>
+                                </a>
+                            </li>                            
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Personal Description -->
+    <div class="container-fluid" id="about-info">
+        <div class="container row d-flex align-items-center d-sm-flex d-md-flex justify-content-sm-center justify-content-md-center" id="about-main-section">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 order-2 order-sm-2 order-md-2 order-lg-1">
+                <!-- left said -->
+                <div id="left-said">
+                    <!-- Title -->
+                    <h1 class="NameHeading">Hi, I'm Imran &#128075;</h1>
+                    <p>I'm a web developer with expertise in HTML, CSS, bootstrap, JavaScript, TypeScript, and
+                        Angular, along with experience in Python, Django, and Django REST API. I specialize in
+                        building high-quality web applications that are fast, scalable, and user-friendly. With
+                        a strong focus on both functionality and design, I strive to create seamless digital
+                        experiences that are responsive, visually appealing, and accessible.</p>
+                </div>
+
+                <!-- Location and thier icon along with Availability -->
+                <div>
+                    <div class="location-avl-icon col-sm col-md col-lg">
+                        <img src="images/icons/Icon.svg" alt="location icon"> <span class="ms-2 m-1"> Swat Khyber
+                            Pakhtunkhwa, Pakistan</span>
+                    </div>
+                    <div>
+                        <img class="ms-2" src="images/icons/icon-dot-emerald-500.svg" alt="status available icon"><span
+                            class="ms-2"> Available for new projects</span>
+                    </div>
+                </div>
+
+                <!-- Social media icon and links -->
+                <div id="socil-media" class="col-sm col-md col-lg">
+                    <a href="https://www.facebook.com/share/153bwhNcrF/" target="_blank" class="fab fa-facebook m-2 fa-2x"></a>
+                    <a href="https://www.linkedin.com/in/imranali2112" class="fab fa-linkedin m-2 fa-2x"></a>
+                    <a href="https://github.com/imranali2112" target="_blank" class="fab fa-github m-2 fa-2x"></a>
+                    <a href="https://www.instagram.com/itx_imrann2/" target="_blank" class="fab fa-instagram m-2 fa-2x"></a>
+                    <a href="#" target="_blank" class="fab fa-twitter m-2 fa-2x"></a>
+                </div>
+
+                <!-- Right said -->
+                <!-- Profile image-->
+            </div>
+            <div class="col-12 col-lg-3 order-1 order-sm-1 order-md-1 order-lg-1 order-xl-2 text-center" id="profile-main-div">
+                <div class="profile-img" id="profil-picture">
+                    <img src="images/image/imran.jpeg" alt="profile image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About me -->
+    <div class="container-fluid" id="about-me">
+        <div class="container">
+            <div class="row gap-2">
+                <!-- Title about em -->
+                <p class="col-12 d-flex justify-content-center text-white rounded-4 m-auto" id="main-heading">About me
+                </p>
+
+                <!-- Mian section of about me -->
+                <div class="row">
+                    <!-- profile picture -->
+                    <div class="col-md-6" id="about-mePic">
+                        <img class="ms-3" src="images/image/MyPicture.jpg" alt="my picture">
+                    </div>
+
+                    <!-- Description about me -->
+                    <div class="col-lg-6 col-sm-12 col-md-12" id="about-description">
+                        <h3>Curious about me? Here you have it:</h3>
+                        <p>I'm a passionate and dedicated web developer specializing in front-end and back-end
+                            technologies, including HTML, CSS, Bootstrap, JavaScript, TypeScript, and Angular, along
+                            with Python, Django, and Django REST API. I take pride in building intuitive, user-friendly,
+                            and efficient web applications. My focus is on delivering clean, maintainable code while
+                            ensuring seamless user experiences and high-performance functionality.</p>
+                        <p>I began my journey as a web developer in 2024 and have been continuously expanding my skill
+                            set by learning new technologies and refining my problem-solving abilities. My passion for
+                            growth drives me to stay updated with the latest advancements in web development, enabling
+                            me to build efficient, scalable, and user-friendly applications.</p>
+                        <p>I am a forward-thinking person who enjoys working on projects from start to finish, from
+                            ideas to development.</p>
+                        <p>You can follow me on LinkedIn, GitHub, Facebook, and Instagram to see my journey as a
+                            beginner web developer. I enjoy learning new technologies, improving my coding skills, and
+                            building user-friendly web applications. Feel free to connect, review my progress, and share
+                            your thoughts as I grow in the world of web development.</p>
+                        <p>Here are a few quick facts about me.</p>
+                        <p>I did BS in Computer Science with a 3.40 CGPA</p>
+                        <p>I am a quick learner and a dedicated person.</p>
+                        <p>One last thing, I'm currently working onsite, but I'm also available for freelance work. Feel
+                            free to reach out!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skill -->
+    <div class="container-fluid" id="skill-section">
+        <div class="container">
+            <div class="row gap-3">
+                <p class="col-12 d-flex justify-content-center text-white rounded-4 m-auto" id="main-heading">Skills</p>
+                <p class="col-12 d-flex justify-content-center text-white m-auto">The skills, tools and technologies I
+                    am really good at:</p>
+            </div>
+            <div class="row mt-5" id="skill-icon">
+                <div class="col-12 d-flex flex-wrap justify-content-center gap-5" id="demo">
+                    <div class="skill-logo">
+                        <img src="images/image/html.png" alt="html/css">
+                        <p>Html/CSS</p>
+                    </div>
+
+                    <div class="skill-logo">
+                        <img src="images/image/bootstrap.png" alt="bootstrap">
+                        <p>Bootstrap</p>
+                    </div>
+
+                    <div class="skill-logo">
+                        <img src="images/icons/icon-javscript.svg" alt="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+
+                    <div class="skill-logo">
+                        <img src="images/icons/icon-typescript.svg" alt="TypeScript">
+                        <p>TypeScript</p>
+                    </div>
+
+                    <div class="skill-logo">
+                        <img src="images/image/Angular.jpeg" alt="Angular">
+                        <p>Angular</p>
+                    </div>
+
+                    <div class="skill-logo">
+                        <img src="images/image/python.webp" alt="python">
+                        <p>Python</p>
+                    </div>
+
+                    <div class="skill-logo">
+                        <img src="images/icons/django-icon.svg" alt="Django">
+                        <p>Django</p>
+                    </div>
+
+                    <div class="skill-logo">
+                        <img src="images/image/restApi.png" alt="rest api">
+                        <p>Rest API</p>
+                    </div>
+
+                    <div class="skill-logo">
+                        <img src="images/icons/icon-git.svg" alt="Git">
+                        <p>Git</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Experience -->
+    <div class="container-fluid" id="experience-sec">
+        <div class="container">
+            <div class="row gap-4">
+                <div class="row gap-2">
+                    <p class="col-12 d-flex justify-content-center text-white rounded-4 m-auto" id="main-heading">
+                        Experience</p>
+                    <p class="col-12 d-flex justify-content-center text-white m-auto">Here is a quick summary of my most
+                        recent experiences:</p>
+                </div>
+
+                <!-- Experience slots -->
+
+                <div class="col-12 m-auto p-4 exp-slots">
+                    <div class="row d-flex flex-column flex-md-row  detail-slots">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 justify-content-center align-items-center">
+                            <p class="title">Beetechnica</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-3 order-sm-3 order-md-3 order-lg-2">
+                            <p class="exp-title">Web Developer Intern</p>
+                            <p>Currently working as a Web Developer Intern at Beetechnica Company, focusing on frontend
+                                development.</p>
+                            <p>Building Responsive UIs: Developing user-friendly and visually appealing web interfaces
+                                using HTML, CSS, and Bootstrap</p>
+                            <p>JavaScript & TypeScript Development: Enhancing interactivity and functionality using
+                                JavaScript and TypeScript.</p>
+                            <p>Angular Development: Creating scalable and dynamic web applications with Angular.</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 order-2 order-sm-2 order-md-2 order-lg-3">
+                            <p>January 2025 - Present</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 m-auto p-4 exp-slots">
+                    <div class="row d-flex flex-column flex-md-row justify-content-center detail-slots">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 justify-content-center align-items-center">
+                            <p class="title">Technical Practice & Learning</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-3 order-sm-3 order-md-3 order-lg-2">
+                            <p class="exp-title">Python | Django | Django REST Framework</p>
+                            <p class="order-2 order-md-3">For the past year, I have been consistently practicing and
+                                refining my skills in Python, Django, and Django REST Framework</p>
+                            <p class="">This includes working on personal projects, improving API development, and
+                                gaining hands-on experience in web application architecture.</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 order-2 order-sm-2 order-md-2 order-lg-3">
+                            <p>September 2023 - December 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects/work -->
+    <div class="container-fluid" id="work-section">
+        <div class="container">
+            <div class="row gap-4">
+                <div class="row gap-2">
+                    <p class="col-12 d-flex justify-content-center text-white rounded-4 m-auto" id="main-heading">Work
+                    </p>
+                    <p class="col-12 d-flex justify-content-center text-white m-auto">Some of the noteworthy projects I
+                        have built:</p>
+                </div>
+
+                <!-- Projects one-->
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-lg-row" id="project-slots">
+                        <div class="col-6 d-flex justify-content-center align-items-center order-1 order-sm-1 order-md-1 project-picture">
+                            <img src="images/image/FYP.png" alt="final year project" width="100%">
+                        </div>
+                        <div class="col-12 col-6 col-sm-12 col-md-12 col-lg-6 order-2 order-sm-2 order-md-2 project-detail">
+                            <div>
+                                <p class="project-title">Job Portal Web Application(FYP)</p>
+                            </div>
+                            <div>
+                                <p>A job portal is an online platform that connects employers with job seekers,
+                                    streamlining the hiring process. Employers can post job vacancies, while job seekers
+                                    can browse and apply. Key features include advanced search filters, separate
+                                    dashboards, real-time application tracking, and status updates. Expired job listings
+                                    remain visible but marked as "closed" for transparency.</p>
+                            </div>
+                            <div class="row d-flex m-0">
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Html/CSS</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Bootstrap</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    JavaScript</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Python</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Django</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Rest API</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    MySQL</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Git</p>
+                            </div>
+                            <div>
+                                <a href="#"><img src="images/icons/linkicon.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Two -->
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-lg-row" id="project-slots">
+                        <div class="col-12 col-6 col-sm-12 col-md-12 col-lg-6 order-2 order-sm-2 order-md-2 order-lg-1 project-detail">
+                            <div>
+                                <p class="project-title">Blogging Website</p>
+                            </div>
+                            <div>
+                                <p>I created a simple blog website where the administrator can manage all activities and
+                                    publish blogs. In the other hand, users have the ability to register, log in, and
+                                    log out. Users can read the blogs without registering, but they are unable to
+                                    comment unless they are signed in. The site features an About page that details the
+                                    website and the services we provide, alongside a Contact page where users can submit
+                                    inquiries, including login difficulties and other concerns.</p>
+                            </div>
+                            <div class="row d-flex m-0">
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Html/CSS</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Python</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Django</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Rest API</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    SQLite3</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Git</p>
+                            </div>
+                            <div>
+                                <a href="#"><img src="images/icons/linkicon.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-6 align-content-center order-1 order-sm-1 order-md-1 project-picture">
+                            <img src="images/image/BlogSite.png" alt="final year project" width="100%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project three -->
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-lg-row" id="project-slots">
+                        <div class="col-6 d-flex justify-content-center align-items-center order-1 order-sm-1 order-md-1 project-picture">
+                            <img src="images/image/KefferLawFarmr.png" alt="final year project" width="100%">
+                        </div>
+                        <div class="col-12 col-6 col-sm-12 col-md-12 col-lg-6 order-2 order-sm-2 order-md-2 project-detail" id="project-color">
+                            <div>
+                                <p class="project-title">Keffer Law Farmer</p>
+                            </div>
+                            <div>
+                                <p>Keffer Law Farmr is a static web design project created using HTML and CSS. It
+                                    features a clean and professional layout tailored for a law firm, ensuring a
+                                    visually appealing and user-friendly experience.</p>
+                            </div>
+                            <div class="row d-flex m-0">
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Html/CSS</p>
+                                <p class=" m-1 rounded justify-content-center align-content-center project-techonolgy">
+                                    Git</p>
+                            </div>
+                            <div>
+                                <a href="#"><img src="images/icons/linkicon.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container-fluid" id="Testimonials">
+        <div class="container">
+            <div class="row gap-2">
+                <p class="col-12 d-flex justify-content-center text-white rounded-4 m-auto" id="main-heading">
+                    Testimonials</p>
+                <p class="col-12 d-flex justify-content-center text-white m-auto">Some of the noteworthy projects I
+                    have built:</p>
+            </div>
+            <div class="row d-flex justify-content-center pt-5 gap-5">
+                <div class="col-3 col-12 col-sm-9 col-md-6 col-lg-3 pt-4 gap-4 avatar-slots oder-1 order-sm-1 order-md-1">
+                    <img src="images/image/zaheer.jpeg" alt="icon avatar" class="mb-3">
+                    <p>I found my dream job within days of signing up. The process was smooth, and the job
+                        recommendations were spot on and I found my dream job quickly! The process was smooth, and the
+                        job recommendations were perfect</p>
+                    <p class="d-flex justify-content-center avatar-name">Zaheer Iqbal</p>
+                    <p class="d-flex justify-content-center">HR Manager, Tech Solutions Inc.</p>
+                </div>
+
+                <div class="col-3 col-12 col-sm-9 col-md-6 col-lg-3 pt-4 avatar-slots oder-2 order-sm-2 order-md-2">
+                    <img src="images/image/afnan.jpg" alt="icon avatar" class="mb-3">
+                    <p>This platform has been a game-changer for our hiring process. The user-friendly interface and
+                        powerful features make recruitment seamless. Game-changer for hiring! The user-friendly
+                        interface makes recruitment seamless.</p>
+                    <p class="d-flex justify-content-center avatar-name">Muhammad Afnan</p>
+                    <p class="d-flex justify-content-center">Software Engineer, InnovateX</p>
+                </div>
+
+                <div class="col-3 col-12 col-sm-9 col-md-6 col-lg-3 pt-4 avatar-slots oder-3 order-sm-3 order-md-3">
+                    <img src="images/image/ilyas.jpg" alt="icon avatar" class="mb-3">
+                    <p>The best job portal I've used! It connects job seekers with top employers effortlessly. Amazing
+                        job portal! Connects job seekers easily so The best job portal! Connects job seekers with top
+                        employers effortlessly</p>
+                    <p class="d-flex justify-content-center avatar-name">Muhammad Ilyas</p>
+                    <p class="d-flex justify-content-center">CEO, FutureTech</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="container-fluid" id="contact-sec">
+        <div class="container">
+            <div class="row gap-5">
+                <div class="row gap-2">
+                    <p class="col-12 d-flex justify-content-center text-white rounded-4 m-auto" id="main-heading">Get
+                        Touch</p>
+                    <p class="col-12 d-flex justify-content-center text-white m-auto contact-title">What’s next? Feel
+                        free to reach out to me if you're looking for</p>
+                    <p class="col-12 d-flex justify-content-center text-white m-auto contact-title">a developer, have a
+                        query, or simply want to connect.:</p>
+                </div>
+                <div class="row contact-us">
+                    <a class="col-12 d-flex align-items-center gap-1" href="mailto:imranali23322@gmail.com">
+                        <img src="images/icons/Icon.png" alt="Email Icon" class="contact-icon">
+                        imranali23322@gmail.com
+                    </a>
+                    <a class="col-12 d-flex align-items-center gap- 1mt-2" href="tel:+923477671352">
+                        <img src="images/icons/phone.png" alt="Phone Icon" class="contact-icon">
+                        +923477671352
+                    </a>
+                </div>
+                <div>
+                    <p class="col-12 d-flex justify-content-center text-white m-auto">You may also find me on these
+                        platforms!</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="fab fa-facebook m-2 fa-2x"></a>
+                    <a href="https://www.linkedin.com/in/imranali2112" class="fab fa-linkedin m-2 fa-2x"></a>
+                    <a href="https://github.com/imranali2112" class="fab fa-github m-2 fa-2x"></a>
+                    <a href="#" class="fab fa-instagram m-2 fa-2x"></a>
+                    <a href="#" class="fab fa-twitter m-2 fa-2x"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="footer">
+        <div class="container">
+            <p>2025 | Designed and coded with  by Imran Ali</p>
+        </div>
+
+    </div>
+
+
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
