@@ -32,6 +32,13 @@ a {
   background-color: rgb(3, 7, 18);
   padding: 96px 80px;
 }
+
+#about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #profil-picture img {
   width: 280px;
   height: 320px;
@@ -218,6 +225,7 @@ a {
   }
   #about-info p {
     font-size: 16px;
+    display: flex;
   }
   #about-me {
     padding: 32px 5px;
@@ -291,6 +299,7 @@ a {
   #contact-sec {
     padding: 32px 10px;
   }
+
   .contact-us {
     font-size: 18px;
     font-weight: 600;
